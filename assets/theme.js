@@ -9675,7 +9675,7 @@ function onYouTubeIframeAPIReady() {
   theme.Video.loadVideos();
 }
 
-function removeImageLoadingAnimation(image1) {
+function removeImageLoadingAnimation(image) {
   // Remove loading animation
   var imageWrapper = image.hasAttribute('data-image-loading-animation')
     ? image
