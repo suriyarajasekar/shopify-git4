@@ -6188,7 +6188,7 @@ hr {
   background-position: 50% 50%;
   background-size: cover; }
 
-.image-bar__link:hover .image-bar__overlay::before, .image-bar__link:focus .image-bar__overlay::before {
+.image-bar__link:hover .image-bar__overlay::before, .image-bar__link:focus .image-bar__overlay::before 
   opacity: var(--hover-overlay-opacity); }
 
 .image-bar__link:focus {
