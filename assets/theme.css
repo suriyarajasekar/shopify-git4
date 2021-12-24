@@ -6855,7 +6855,7 @@ hr {
   border-bottom: 1px solid var(--color-text-field-text); }
 
 /*================ Selectors ================*/
-
+.selectors-form {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
