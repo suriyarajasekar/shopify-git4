@@ -9675,7 +9675,7 @@ function onYouTubeIframeAPIReady() {
   theme.Video.loadVideos();
 }
 
-function removeImageLoadingAnimation(image) {
+function removeImageLoadingAnimation(image1) {
   // Remove loading animation
   var imageWrapper = image.hasAttribute('data-image-loading-animation')
     ? image
@@ -9685,3 +9685,5 @@ function removeImageLoadingAnimation(image) {
     imageWrapper.removeAttribute('data-image-loading-animation');
   }
 }
+
+
