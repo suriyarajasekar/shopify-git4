@@ -193,6 +193,7 @@
   {{ content_for_header }}
 </head>
 
+
  {{template}}
 {{template}} 
 {% if product %}
@@ -204,6 +205,12 @@ product id,{{ product.id}}
 {{my_string1}}
 <div>
 <body class="template-{{ request.page_type | handle }}">
+=======
+ 
+{{template}}
+  
+  <body class="template-{{ request.page_type | handle }}">
+
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
