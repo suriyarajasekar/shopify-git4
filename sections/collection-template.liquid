@@ -15,7 +15,7 @@
   {%- assign limit = 16 -%}
 {% endif %}
 
-{% paginate collection.products by limit %}
+{% paginate collection.products by 5 %}
 
 <div data-section-id="{{ section.id }}" data-section-type="collection-template">
   <header class="collection-header">

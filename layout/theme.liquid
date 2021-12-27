@@ -193,8 +193,16 @@
   {{ content_for_header }}
 </head>
 
-{{template}}
-
+<!-- {{template}}
+{{template}} -->
+{% if product %}
+product id,{{ product.id}}
+{% endif %}
+{% assign my_string = "Hello World!" %}
+{% assign my_string1 = 3+2 %}
+{{my_string}}
+{{my_string1}}
+<div>
 <body class="template-{{ request.page_type | handle }}">
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
