@@ -27,7 +27,7 @@ theme.Sections = function Sections() {
     'shopify:block:select',
     this._onBlockSelect.bind(this)
   );
-  document.addEventListener(
+  document.addEventListener
     'shopify:block:deselect',
     this._onBlockDeselect.bind(this)
   );
